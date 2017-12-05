@@ -18,7 +18,11 @@
         </activity>
         <activity
             android:name=".OrderActivity"
-            android:lable="@string/create_order">
+            android:label="@string/create_order"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.suppoert.PARENT_ACTIVITY"
+                android:value=".MainAcitity"/>
         </activity>
     </application>
 
